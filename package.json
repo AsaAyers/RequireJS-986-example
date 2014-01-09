@@ -1,0 +1,13 @@
+{
+  "name": "RequireJS-986-example",
+  "version": "0.0.0",
+  "description": "Runnable demonstration of https://github.com/jrburke/requirejs/issues/986",
+  "dependencies": {
+    "http-server": "~0.6.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "./node_modules/http-server/bin/http-server"
+  },
+  "author": "Asa Ayers <Asa@AsaAyers.com>",
+}
