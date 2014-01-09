@@ -1,0 +1,22 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <title>RequrieJS-986 example</title>
+</head>
+    <body>
+        <script src="require.js"></script>
+        <script>
+            require.config({
+                baseUrl: "/js",
+                urlArgs: "bust=" + (new Date()).getTime(),
+                paths: {
+                    InternalLibrary: [
+                        '../InternalLibrary-dev/main',
+                        '../InternalLibrary/main'
+                    ]
+                }
+            });
+            require(['main']);
+        </script>
+    </body>
+</html>
